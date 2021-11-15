@@ -1,0 +1,29 @@
+main{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    background: hsl(165, 100%, 10%);
+    color: #fff;
+    
+
+}
+
+#about{
+    margin: 0;
+    text-align: center;
+}
+
+
+#foto-perfil{
+    border-radius: 20rem;
+    width: 80%;
+    justify-self: center;
+}
+
+#projects{
+    margin: 0;
+    background: hsl(165, 100%, 10%);
+}

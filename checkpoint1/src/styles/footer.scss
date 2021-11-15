@@ -1,0 +1,12 @@
+footer{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background: hsl(165, 100%, 5%);
+    color: white;
+    padding: 20px;
+}
