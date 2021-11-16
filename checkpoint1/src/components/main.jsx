@@ -6,7 +6,7 @@ export default class Main extends React.Component {
     render() {
         return (
             <main className="main">
-                
+
                 <section id="about">
                     <img id="foto-perfil" src="https://image.freepik.com/vetores-gratis/colecao-de-gatos-pretos-do-dia-das-bruxas-desenhada-a-mao_52683-72831.jpg" alt="imagem de um casal de gatos"></img>
 
@@ -16,22 +16,23 @@ export default class Main extends React.Component {
 
                 <section id="projects">
                     {this.state.projetos.map(
-                        (projeto)=>{
-                            return(
+                        (projeto) => {
+                            return (
                                 <Project className="card" print={projeto.print} title={projeto.title} description={projeto.description} link={projeto.link} github={projeto.github} key={projeto.id} />
                             );
                         }
                     )}
                 </section>
-
+                
+                <a id="float-home" href="#home"><i className="icon-home"></i></a>
             </main>
         );
     }
 
     constructor() {
         super();
-        this.state={
-            projetos:[
+        this.state = {
+            projetos: [
                 {
                     id: 1,
                     print: './imgs/01-gatitos-primeiro.png',
@@ -44,7 +45,7 @@ export default class Main extends React.Component {
                 {
                     id: 2,
                     print: './imgs/02-jf.png',
-                    title: 'Bem-vindo a Juiz de Fora',
+                    title: 'Bem-vindo a JF',
                     description: 'Primeiro projeto avaliativo desenvolvido. Aqui o desafio foi criar uma página sobre sua cidade e tentar inserir um vídeo reproduzível.',
                     link: 'https://abne-b.github.io/avaliacao1_frontend/',
                     github: 'https://github.com/Abne-b/avaliacao1_frontend/'

@@ -4,13 +4,12 @@ import '../styles/header.scss';
 export default class Header extends React.Component {
     render() {
         return (
-            <header>
+            <header id="home">
                 <h1>Portifólio Abne</h1>
-                <img className="header-background" src="https://image.freepik.com/vetores-gratis/conjunto-de-patas-gatos-multicoloridos-fofos_74855-5503.jpg"></img>
+                <div className="header-background"></div>
                 <nav>
-                    <a href="#">Início</a>
-                    <a href="#">Sobre</a>
-                    <a href="#">Projetos</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#projects">Projetos</a>
                 </nav>
             </header>
         );

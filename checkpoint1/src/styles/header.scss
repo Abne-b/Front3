@@ -4,14 +4,22 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    position: sticky;
+    position: relative;
     top: 0;
     background: hsl(165, 100%, 5%);
     padding: 20px;
+    z-index: 1;
+    font-size: 1.5rem;
+
+    nav{
+        display: flex;
+    }
 }
 
 .header-background{
     position: absolute;
+    background-size: auto 100% ;
+    background-image: url("https://image.freepik.com/vetores-gratis/conjunto-de-patas-gatos-multicoloridos-fofos_74855-5503.jpg");
     top: 0;
     left: 0;
     width: 100%;
@@ -21,33 +29,28 @@ header{
 }
 
 header h1 {
-    font-size: 30px;
+    font-size: 3rem;
     color: hsl(221, 100%, 85%);
 }
 
 
-header ul {
-    display: flex;
-    gap: 5px;
-}
-
-header a {
+#home a {
     text-decoration: none;
-    color: hsl(221, 100%, 85%);
-    padding: 10px;
-    border-radius: 9px;
+    color: hsl(55, 60%, 55%);;
+    padding: 0.5rem;
+    border-radius: 1rem;
     font-weight: bold;
     transition: all .3s ease-in-out;
 }
 
-header nav a:hover {
-    background: hsla(165, 100%, 50%, 0.604);
-    color: black;
+#home nav a:hover {
+    background: rgba(66, 51, 77, 0.8);
+    color: white;
 }
 
-header nav a:active {
-    background: hsla(165, 100%, 50%, 0.604);
-    color: black;
+#home nav a:active {
+    background: hsla(165, 100%, 37%, 0.604);
+    color: rgb(15, 15, 15);
 }
 
 

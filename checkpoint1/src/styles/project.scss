@@ -1,0 +1,43 @@
+.card{
+    background-color: hsl(275, 20%, 25%);
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 5px;
+    box-shadow: 0rem 0rem 0.5rem hsla(165, 100%, 37%, 0.604);
+}
+
+.links{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+img{
+    width: 100%;
+    border-radius: 3px 3px 0px 0px;
+}
+
+h3{
+    color: hsl(221, 100%, 85%);
+    font-size: 2.25rem;
+}
+
+p{
+    font-size: 1.25rem;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    font-size: 30px;
+    color: hsl(55, 60%, 55%);
+    padding: 1rem 1.5rem;
+}
+
+
+
+a:hover{
+    background: hsla(165, 100%, 37%, 0.604);
+    color: rgb(15, 15, 15);
+    border-radius: 5px;
+}
