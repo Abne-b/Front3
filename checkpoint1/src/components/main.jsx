@@ -11,7 +11,7 @@ export default class Main extends React.Component {
                     <img id="foto-perfil" src="https://image.freepik.com/vetores-gratis/colecao-de-gatos-pretos-do-dia-das-bruxas-desenhada-a-mao_52683-72831.jpg" alt="imagem de um casal de gatos"></img>
 
                     <h2>Sobre mim</h2>
-                    <p>Eu não sei o que falar sobre mim, mas na seção seguinte tem uns projetinhos.</p>
+                    <p>Eu me chamo Beatriz Abne Alqueres Cruz e estou começando a trabalhar como full-stack web developer. Na seção seguinte estão alguns projetinhos que desenvolvi até agora.</p>
                 </section>
 
                 <section id="projects">
